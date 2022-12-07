@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: duolingo;
+}
+@font-face {
+    font-family: duolingo;
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded Bold Italic.ttf");
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded Bold.ttf");
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded Light.ttf");
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded Medium Italic.ttf");
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded Medium.ttf");
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded Semi Bold Italic.ttf");
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded Semi Bold.ttf");
+    src: url("img/Ciutadella.Rounded.Font.Family.10xTTF/Ciutadella Rounded Font Family 10xTTF $250 GFXTRA.COM!/10xTTF/Ciutadella Rounded.ttf");
+}   
+#logo{
+    width: 9%;
+    margin-top: 1%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+#eua{
+    width: 3.5%;
+    margin-left: 490px;
+}
+#fogoP{
+    margin-left: -40px;
+    font-weight: 700;
+}
+#lingotP{
+    margin-left: -30px;
+    font-weight: 700;
+    color: #fd6d6d;
+}
+
+#avatar{
+    border-radius: 50%;
+    margin-right: 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    padding-bottom: 0.5%;
+    border-bottom: solid #e5e5e5 2px;
+}
+.logo{
+    padding-right: -20px;
+    margin-right: -800px;
+    align-self: center;
+}
+.itens1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 6px 80px 6px 15px;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-left: -20px;
+}
+.itens1:hover{
+    background-color: #F7F7F7;
+}
+.aprender{
+    margin-bottom: -7px;
+    
+}
+.aprender p{
+    margin-left: 5px;
+}
+.revisao p{
+    margin-left: 5px;
+}
+.loja p{
+    margin-left: 12px;
+}
+.escolas p{
+    margin-left: 11px;
+}
+#lateral1{
+   display: flex;
+   flex-direction: column;
+   margin-left: 4%;
+   margin-top: 14px;
+   width: min-content;
+}
+#lateral1 p{
+    color: #afafaf;
+    font-size: 15px;
+    font-weight: 700;
+}
+.teste{
+    display: block;
+}
